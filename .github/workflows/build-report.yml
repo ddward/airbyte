@@ -2,9 +2,7 @@ name: Build Report
 
 on:
   workflow_dispatch:
-  schedule:
-    # 1pm UTC is 6am PDT.
-    - cron: '0 13 * * *'
+
 
 jobs:
   build-report:
