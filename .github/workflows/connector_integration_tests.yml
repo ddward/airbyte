@@ -2,9 +2,6 @@ name: Connector Integration Tests
 
 on:
   workflow_dispatch:
-  schedule:
-    # 11am UTC is 4am PDT.
-    - cron: '0 11 * * *'
 
 jobs:
   launch_integration_tests:
